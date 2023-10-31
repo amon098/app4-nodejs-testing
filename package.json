@@ -1,0 +1,14 @@
+{
+  "name": "express-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pm2 start ecosystem.config.js --env test1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "latest"
+  }
+}
